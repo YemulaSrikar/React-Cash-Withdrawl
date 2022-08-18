@@ -1,0 +1,84 @@
+/* Write your CSS here */
+
+.bg-container {
+  padding: 40px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bg-card {
+  background-color: #150b3e;
+  border-radius: 10px;
+  padding: 30px;
+  width: 65vh;
+}
+.s-symbol {
+  background-color: #c7d2fe;
+  border-radius: 50%;
+  width: 70px;
+  border-width: 0px;
+  color: #7c3aed;
+  padding: 20px;
+  text-align: center;
+  font-size: 15px;
+}
+.name-cont {
+  display: flex;
+  flex-direction: row;
+}
+.user-name {
+  color: #c7d2fe;
+  font-weight: normal;
+  font-size: 20px;
+  font-family: 'Roboto';
+  margin-left: 20px;
+  margin-top: 30px;
+}
+.bal-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.bal-text {
+  font-size: 20px;
+  color: #585076;
+  font-family: 'Roboto';
+  font-weight: normal;
+}
+.rupees-num {
+  color: #ffffff;
+  font-weight: normal;
+  font-size: 30px;
+  margin-right: 20px;
+  margin-top: 0px;
+  padding-top: 10px;
+}
+.rupees-text {
+  color: #585076;
+  font-family: 'Roboto';
+  font-size: 15px;
+  text-align: right;
+  font-weight: normal;
+  margin-right: 20px;
+  margin-top: 0px;
+}
+.withdraw-text {
+  color: #d4d2db;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+.sum-text {
+  font-size: 20px;
+  color: #585076;
+  font-family: 'Roboto';
+  font-weight: normal;
+}
+.u-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+}
